@@ -13,15 +13,13 @@ npm install --save simpleui
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import MyComponent from 'simpleui'
+import MyComponent from "simpleui";
 
 class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <MyComponent />;
   }
 }
 ```
